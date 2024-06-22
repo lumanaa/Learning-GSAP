@@ -1,0 +1,25 @@
+@import '/src/index.scss';
+
+.grid-container {
+  margin-top: 5rem;
+
+  .mantine-Grid-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    .mantine-Grid-col {
+      cursor: pointer;
+      text-align: center;
+      background-color: $second-bg;
+      margin: 1rem;
+      padding: 3rem;
+      color: $text;
+      font-size: 4rem;
+      font-family: $secondary-font;
+      &:hover{
+        background-color: darken($color: $second-bg, $amount: 5%);
+      }
+    }
+  }
+}
