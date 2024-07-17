@@ -12,13 +12,17 @@ function Griditem() {
           <Grid.Col
             span={{ base: 12, md: 6, lg: 3 }}
             className='grid-col'
-            onClick={() => navigate("/basic")}
+            onClick={() => navigate("/basics ")}
           >
-            GsapTo
+            Basics
           </Grid.Col>
 
-          <Grid.Col span={{ base: 12, md: 6, lg: 3 }} className='grid-col'>
-            GsapFrom
+          <Grid.Col
+            span={{ base: 12, md: 6, lg: 3 }}
+            className='grid-col'
+            onClick={() => navigate("/timeline")}
+          >
+            Timeline
           </Grid.Col>
           <Grid.Col span={{ base: 12, md: 6, lg: 3 }} className='grid-col'>
             3

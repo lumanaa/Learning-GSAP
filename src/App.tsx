@@ -3,6 +3,8 @@ import "./App.scss";
 import Griditem from "./components/Grid/Grid";
 import BasicsPage from "./Basic/Basic";
 
+import GsapTimeline from "./Basic/GsapTimeline";
+
 function App() {
   return (
     <BrowserRouter>
@@ -13,7 +15,8 @@ function App() {
       </div>
       <Routes>
         <Route path='/' element={<Griditem />} />
-        <Route path='/basic' element={<BasicsPage />} />
+        <Route path='/basics' element={<BasicsPage />} />
+        <Route path='/timeline' element={<GsapTimeline />} />
       </Routes>
     </BrowserRouter>
   );

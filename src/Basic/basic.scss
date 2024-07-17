@@ -1,16 +1,50 @@
 @import "/src/index.scss";
-.basic-page {
-  #box {
-    width: 300px;
-    height: 300px;
-    background-color: $box;
-    margin-bottom: 8rem;
-    
+.basic-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .basic-page {
+    #box {
+      width: 300px;
+      height: 300px;
+      background-color: $box;
+      margin-bottom: 5rem;
+    }
+    #box2 {
+      width: 300px;
+      height: 300px;
+      margin-bottom: 6rem;
+      background-color: $box;
+    }
+    #box3 {
+      height: 250px;
+      background-color: antiquewhite;
+      width: 250px;
+      margin-bottom: 6rem;
+    }
+    #box4 {
+      height: 300px;
+      height: 300px;
+      background-color: cadetblue;
+    }
   }
-  #box2 {
+}
 
-    width: 300px;
-    height: 300px;
-    background-color: $box;
+#yellow-box {
+  height: 300px;
+  width: 300px;
+  background-color: #f6fb7a;
+}
+.btn-container {
+  .play-btn {
+    cursor: pointer;
+    margin-top: 20rem;
+    border-radius: 12px;
+    padding: 1rem 2rem;
+    background-color: $text;
+    color: #1a1a1a;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
   }
 }
