@@ -1,9 +1,17 @@
-@import './index.scss';
+@import "./index.scss";
 
-h1{
-    text-align: center;
-    padding: 2rem 0rem;
-    font-family: $secondary-font;
-    letter-spacing: 5px;
-    
+.header-container {
+  display: flex;
+  font-family: $secondary-font;
+  padding: 2rem 0rem;
+  letter-spacing: 5px;
+  justify-content: center; /* Center the h1 horizontally */
+  align-items: center; /* Center the h1 vertically if needed */
+  width: 100%; /* Ensure the container takes the full width */
+
+}
+
+.header-title {
+  margin: 0; /* Remove default margin */
+  font-size: 2em; /* Adjust font size as needed */
 }

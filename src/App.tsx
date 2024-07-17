@@ -6,7 +6,11 @@ import BasicsPage from "./Basic/Basic";
 function App() {
   return (
     <BrowserRouter>
-      <Link to={"/"} style={{textDecoration:"none", color:"white"}}><h1>GSAP LEARNING</h1></Link>
+      <div className="header-container">
+        <Link to={"/"} style={{ textDecoration: "none", color: "white" }}>
+          <h1 className="header-title">GSAP LEARNING</h1>
+        </Link>
+      </div>
       <Routes>
         <Route path='/' element={<Griditem />} />
         <Route path='/basic' element={<BasicsPage />} />
