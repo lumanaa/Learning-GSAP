@@ -48,3 +48,52 @@
     font-weight: bold;
   }
 }
+
+.stagger-container {
+  display: flex;
+  justify-content: space-between;
+  .stagger-box {
+    height: 100px;
+    width: 100px;
+  }
+  .sbox1 {
+    background-color: #433d8b;
+  }
+  .sbox2 {
+    background-color: #ef5a6f;
+  }
+  .sbox3 {
+    background-color: #e68369;
+  }
+  .sbox4 {
+    background-color: #ffc7ed;
+  }
+}
+
+.scroll-body {
+  margin-top: 20rem;
+  margin-bottom: 50rem;
+  width: 100%;
+  height: 100%;
+  .scroll-blue {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(107, 123, 226);
+  }
+  .scroll-orange {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(226, 147, 107);
+  }
+}
+
+.text-body {
+  #text {
+    opacity: 0;
+    transform: translateY(2.5rem);
+  }
+  .para {
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+}

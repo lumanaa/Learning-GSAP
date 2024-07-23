@@ -24,14 +24,26 @@ function Griditem() {
           >
             Timeline
           </Grid.Col>
-          <Grid.Col span={{ base: 12, md: 6, lg: 3 }} className='grid-col'>
-            3
+          <Grid.Col
+            span={{ base: 12, md: 6, lg: 3 }}
+            className='grid-col'
+            onClick={() => navigate("/stagger")}
+          >
+            Stagger
           </Grid.Col>
-          <Grid.Col span={{ base: 12, md: 6, lg: 3 }} className='grid-col'>
-            4
+          <Grid.Col
+            span={{ base: 12, md: 6, lg: 3 }}
+            className='grid-col'
+            onClick={() => navigate("/scroll-trigger")}
+          >
+            ScrollTrigger
           </Grid.Col>
-          <Grid.Col span={{ base: 12, md: 6, lg: 3 }} className='grid-col'>
-            4
+          <Grid.Col
+            span={{ base: 12, md: 6, lg: 3 }}
+            className='grid-col'
+            onClick={() => navigate("/text")}
+          >
+            GsapText
           </Grid.Col>
           <Grid.Col span={{ base: 12, md: 6, lg: 3 }} className='grid-col'>
             4

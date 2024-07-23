@@ -4,6 +4,9 @@ import Griditem from "./components/Grid/Grid";
 import BasicsPage from "./Basic/Basic";
 
 import GsapTimeline from "./Basic/GsapTimeline";
+import GsapStagger from "./Basic/GsapStagger";
+import ScrollTriggerr from "./Basic/ScrollTriggerr";
+import GsapText from "./Basic/GsapText";
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
         <Route path='/' element={<Griditem />} />
         <Route path='/basics' element={<BasicsPage />} />
         <Route path='/timeline' element={<GsapTimeline />} />
+        <Route path='/stagger' element={<GsapStagger />} />
+        <Route path='/scroll-trigger' element={<ScrollTriggerr />} />
+        <Route path='/text' element={<GsapText />} />
       </Routes>
     </BrowserRouter>
   );

@@ -39,7 +39,7 @@ function GsapTimeline() {
       duration:2,
       backgroundColor: '#83B4FF'
     })
-  });
+  },[]);
 
   return (
     <>
